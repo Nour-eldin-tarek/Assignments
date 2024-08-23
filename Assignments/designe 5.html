@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>designe 5</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <style>
+        section {
+            margin-top: 70px;
+            padding-left: 190px;
+            padding-right: 100px;
+        }
+        .contaner {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(540px, 1fr));
+            grid-column-gap: 120px;
+            /* grid-row-gap: 60px; */
+        }
+        a {
+            color: #fdc236;
+        }
+        h1{
+            color: #000000;
+            font-size: 50px;
+            font-family:fantasy;
+            font-weight: lighter;
+            display: block  ;
+        }
+        h2 {
+            color: #646464;
+            font-size: 25px;
+            font-family:sans-serif;
+        }
+        p {
+            color: #9f9caa;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        .image_contaner {
+            display: inline-block;
+        }
+        .image {
+            width: 450px;
+            box-shadow: 10px 10px 0px 0px #fdc236;
+            /* height: 10px; */
+        }
+        .line_down {
+            margin: 0px;
+            display: inline-block;
+            position: relative;
+        }
+        .line_down::before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            width: 100px;
+            height: 0px;
+            /* margin-top: 7px; */
+            top: 75%;
+            border: solid #fdc236;
+            border-width: 2px;
+        }
+        .contant {
+            display: inline-block;
+            width: 650px;
+        }
+        ul {
+            list-style: none;
+            padding: 0px;
+        }
+        li {
+            /* margin-right: 10px; */
+            margin-bottom: 10px;
+            display: inline-block;
+            min-width: 300px;
+            color: #646464;
+            font-size: 14px;
+            font-family:sans-serif;
+            font-weight: bold;
+        }
+        .ico {
+            margin-right: 5px;
+            color: #fdc236;
+        }
+        button {
+            background-color: #fdc236;
+            color: white;
+            font-family:monospace;
+            font-weight: bold;
+            border: 0px;
+            padding: 10px 25px 10px 25px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="contaner">
+            <div class="contant">
+                <div class="line_down">
+                    <h1 >ABOUT <a>OUR COMPANY</a></h1>
+                </div>
+                <h2>Curabitur congue egestas dapibus.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non libero consectetur, blandit mauris
+                    eget, imperdiet nisl. Etiam commodo ex nec erat tempor varius. Nunc rutrum pretium nunc in
+                    malesuada. Curabitur mollis urna ac sapien vulputate, ut congue sapien vehicula. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam et suscipit dui.
+                    Maecenas velit quam, mollis id erat eget, scelerisque elementum odio. Maecenas ac sagittis erat.
+                    Quisque hendrerit dapibus diam, a venenatis dui efficitur nec. Aenean tincidunt ullamcorper
+                    fermentum.
+                </p>
+                <div class="ul_style">
+                    <ul>
+                        <li>
+                            <i class="ico fas fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur
+                        </li>
+                        <li>
+                            <i class="ico fas fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur
+                        </li>
+                        <li>
+                            <i class=" ico fas fa-check-circle"></i> Ut sit amet nisl sed ante vulputate
+                        </li>
+                        <li>
+                            <i class="ico fas fa-check-circle"></i> Ut sit amet nisl sed ante vulputate
+                        </li>
+                    </ul>
+                </div>
+                <button>
+                    READ MORE
+                </button>
+            </div>
+            <div class="image_contaner">
+                <img class="image" src="./image 3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

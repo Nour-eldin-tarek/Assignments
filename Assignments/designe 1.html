@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>designe 1</title>
+    <style>
+        h1{
+            color: #4b4b4b;
+            text-align: center;
+            font-family:sans-serif;
+            font-weight: lighter;
+            display: block  ;
+        }
+        .line_down {
+            position: relative;
+            text-align: center;
+        }
+        .line_down::before {
+            content: "";
+            position: absolute;
+            width: 70px;
+            height: 0px;
+            /* left: 50%; */
+            margin-top: 7px;
+            top: 100%;
+            border: solid #ffbc13;
+            border-width: 2px;
+            transform: translateX(-50%);
+            /* background-color: red; */
+        }
+        section {
+            margin-top: 70px;
+            margin-left: 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            grid-column-gap: 10px;
+            grid-row-gap: 60px;
+        }
+        .icon {
+            width: 100px;
+        }
+        .image {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .contant {
+            display: inline-block;
+            /* margin-right: 10px; */
+        }
+        pre {
+            font-size: 18px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #8f8590;
+            text-align:start;
+        }
+        .contant h1 {
+            text-align: start;
+        }
+        .service_conatner {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<br><br><br><br><br>
+    <div class="line_down">
+        <h1 >MAIN SERVICES</h1>
+    </div>
+    <section>
+    <div class="service_conatner">
+        <div class="image">
+            <img class="icon" src="./Architectural Design.png" alt="">
+        </div>
+        <div class="contant">
+        
+            <h1> Construction Consultant</h1>
+            <pre>Vestibulum eu libero volutpat, portas
+quam, tempus sem. Donec sodales quam
+id lorem lobortis, vitae interdum nisl.
+            </pre>
+        </div>
+    </div>
+    <div class="service_conatner">
+        <div class="image">
+            <img class="icon" src="./Architectural Design.png" alt="">
+        </div>
+        <div class="contant">
+        
+            <h1> Architectural Design</h1>
+            <pre>Vestibulum eu libero volutpat, portas
+quam, tempus sem. Donec sodales quam
+id lorem lobortis, vitae interdum nisl.
+            </pre>
+        </div>
+    </div>
+    <div class="service_conatner">
+        <div class="image">
+            <img class="icon" src="./Architectural Design.png" alt="">
+        </div>
+        <div class="contant">
+        
+            <h1> Electrical System</h1>
+            <pre>Vestibulum eu libero volutpat, portas
+quam, tempus sem. Donec sodales quam
+id lorem lobortis, vitae interdum nisl.
+            </pre>
+        </div>
+    </div>
+    <div class="service_conatner">
+        <div class="image">
+            <img class="icon" src="./Architectural Design.png" alt="">
+        </div>
+        <div class="contant">
+        
+            <h1> General Contracting</h1>
+            <pre>Vestibulum eu libero volutpat, portas
+quam, tempus sem. Donec sodales quam
+id lorem lobortis, vitae interdum nisl.
+            </pre>
+        </div>
+    </div>
+    <div class="service_conatner">
+        <div class="image">
+            <img class="icon" src="./Architectural Design.png" alt="">
+        </div>
+        <div class="contant">
+        
+            <h1> Resconstruction Services</h1>
+            <pre>Vestibulum eu libero volutpat, portas
+quam, tempus sem. Donec sodales quam
+id lorem lobortis, vitae interdum nisl.
+            </pre>
+        </div>
+    </div>
+    <div class="service_conatner">
+        <div class="image">
+            <img class="icon" src="./Architectural Design.png" alt="">
+        </div>
+        <div class="contant">
+        
+            <h1> Plumbilg Services</h1>
+            <pre>Vestibulum eu libero volutpat, portas
+quam, tempus sem. Donec sodales quam
+id lorem lobortis, vitae interdum nisl.
+            </pre>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
